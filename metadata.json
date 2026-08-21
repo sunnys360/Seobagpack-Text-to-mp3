@@ -1,0 +1,6 @@
+{
+  "name": "Text to MP3 Generator",
+  "description": "Convert text to high-quality natural speech and download as MP3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
