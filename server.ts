@@ -7,8 +7,8 @@ import fs from 'fs';
 import * as googleTTS from 'google-tts-api';
 
 // If using ES modules
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const isProd = process.env.NODE_ENV === 'production';
 
 const app = express();
